@@ -15,7 +15,7 @@ const SERVICES = [
   {LOGO: <Tracking/>, title: "Tracking", description: "Track and save your medical history and health data "},
 ]
 
-export const ServicesSection = () => {
+const ServicesSection = () => {
   return (
     <section className='max-w-6xl mx-auto flex flex-col gap-3  items-center px-8 md:px-12 relative z-50 md:mb-56 mb-36'>
         <h3 className='font-bold text-3xl leading-[56px]'>Our services</h3>
@@ -33,3 +33,5 @@ export const ServicesSection = () => {
     </section>
   )
 }
+
+export default ServicesSection;

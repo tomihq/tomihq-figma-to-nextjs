@@ -1,5 +1,5 @@
 import React from 'react'
-import { CompanyLogo, OList, VerticalMenu } from '../UI'
+import { CompanyLogo, VerticalMenu } from '../UI'
 import { DotsSection } from './DotsSection'
 
 
@@ -11,7 +11,7 @@ const REGION = [{text: 'Indonesia', linkable: true}, {text: 'Singapore', linkabl
 
 const HELP = [{text: 'Help center', linkable: true}, {text: 'Contact support', linkable: true}, {text: 'Instructions', linkable: true}, {text: 'How it works', linkable: true} ]
 
-export const FooterSection = () => {
+const FooterSection = () => {
   return (
     <footer className='flex items-center justify-start flex-1 xl:max-w-[1920px] mx-auto xl:h-[432px] xl:max-h-[500px] bg-gradient-to-r from-[#5A98F2]  to-[#67C3F3] w-full xl:mt-48 py-12 xl:py-0 bottom-0 shadow-xl'>
         <DotsSection classes={"hidden xl:flex self-start  top-56 left-2"} />
@@ -36,3 +36,5 @@ export const FooterSection = () => {
     </footer>
   )
 }
+
+export default FooterSection;

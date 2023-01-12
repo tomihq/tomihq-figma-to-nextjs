@@ -16,7 +16,7 @@ interface IArticle {
 ] 
 
 
-export const LastArticleSection = () => {
+const LastArticleSection = () => {
   return (
     <section className='max-w-6xl mx-auto flex flex-col gap-4 items-center  relative z-50 md:mb-32 mb-36 '>
         <DotsSection classes={"self-start absolute top-12 -left-8"} />
@@ -35,3 +35,5 @@ export const LastArticleSection = () => {
     </section>
   )
 }
+
+export default LastArticleSection

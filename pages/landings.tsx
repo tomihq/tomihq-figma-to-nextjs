@@ -19,7 +19,13 @@ const TemplatesPage = () => {
 
         <div className='grid grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-8'>
         {
-            TEMPLATES.map((template) => <Card key={template.title}  data={template} readMoreBtn={true} padding={"py-9 px-2"} />)
+            TEMPLATES.map((template) => <Card 
+              key={template.title}  
+              data={template} 
+              readMoreBtn={true} 
+              padding={"py-9 px-2"} 
+              imgPriority={true}
+            />)
         }
           
         </div>

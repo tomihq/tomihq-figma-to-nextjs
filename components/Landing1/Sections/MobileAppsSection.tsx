@@ -1,7 +1,7 @@
 import { ArrowDown, Divider, FourSectionLogo } from "../UI"
 
 
-export const MobileAppsSection = () => {
+const MobileAppsSection = () => {
   return (
     <section className="max-w-6xl mx-auto flex flex-col md:flex-row sm:w-[460px] md:w-full  px-8 md:px-12 xl:px-0  justify-center items-start md:mb-56 mb-36">
         <div className="flex flex-col   md:w-[460px]  gap-6 md:mr-12 xl:mr-0">
@@ -18,3 +18,5 @@ export const MobileAppsSection = () => {
     </section>
   )
 }
+
+export default MobileAppsSection

@@ -1,6 +1,6 @@
 import { Divider, ThirdSectionLogo } from "../UI"
 
-export const HealthCareSection = () => {
+const HealthCareSection = () => {
   return (
     <section className="max-w-6xl mx-auto flex flex-col-reverse sm:w-[460px] md:w-full md:flex-row px-8 md:px-12 xl:px-0 justify-between  md:mb-56 mb-36">
         <div className=" flex items-center justify-center mt-16 md:-mt-[3rem] md:px-12 ">
@@ -16,3 +16,5 @@ in the solutions we deliver</h2>
     </section>
   )
 }
+
+export default HealthCareSection

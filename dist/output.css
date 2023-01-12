@@ -991,6 +991,11 @@ video {
   color: rgb(31 21 52 / var(--tw-text-opacity));
 }
 
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
 .opacity-90 {
   opacity: 0.9;
 }

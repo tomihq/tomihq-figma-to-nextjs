@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { ArrowBack, ArrowRight, Divider } from '../UI'
 import { Dot } from './DotsSection'
 
-export const CustomersExperience = () => {
+const CustomersExperience = () => {
   return (
     <section className="max-w-6xl mx-auto flex flex-col justify-start  flex-1 md:mb-56 mb-36  ">
         <div className='flex flex-col gap-2 lg:gap-12 bg-gradient-to-r from-[#5A98F2]  to-[#67C3F3] xl:h-[425px] py-24 justify-center md:justify-start md:rounded-xl '>
@@ -45,3 +45,5 @@ export const CustomersExperience = () => {
     </section>
   )
 }
+
+export default CustomersExperience;
